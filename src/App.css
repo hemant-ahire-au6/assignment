@@ -1,0 +1,46 @@
+.custom-img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.nav-theme{
+  /* background-color: #FFFFFF; */
+}
+
+.text{
+  /* font: normal normal medium 24px/35px Poppins; */
+  color: #000000;
+}
+
+.horizontal_slider{
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+.horizontal_slider::-webkit-scrollbar{
+  display: none;
+}
+
+.slider_container{
+  display: block;
+  white-space: nowrap;
+}
+
+.item{
+  display:inline-block;
+  margin-right:10px;
+}
+
+.item img{
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.footer{
+  background: #000000 0% 0% no-repeat padding-box;
+ 
+}
