@@ -23,7 +23,7 @@ function Contact() {
                         </Row>
                     </Col>
                     <Col md={4}>
-                    <img src={Img}/>
+                    <img src={Img} alt=" Contact Us"/>
                     </Col>
                 </Row>
             </Container>
