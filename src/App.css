@@ -44,3 +44,33 @@
   background: #000000 0% 0% no-repeat padding-box;
  
 }
+
+/*Navbar Design */
+.nav-item{
+  text-align: left;
+  font-family: 'Poppins';
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+/* carousel design */
+.carousel {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Work design  */
+
+.work{
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
