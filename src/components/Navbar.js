@@ -16,13 +16,13 @@ function NavBar() {
           </Navbar.Brand>
         </div>
         <div>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto ">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto " style={{marginLeft:"20px"}}>
               <Nav.Link className="nav-item" href="#home">Home</Nav.Link>
-              <Nav.Link className="nav-item" href="#about">About</Nav.Link>
-              <NavDropdown  title="Services" id="basic-nav-dropdown nav-item">
-                <Container style={{width:"400px"}}>
+              <Nav.Link className="nav-item" href="#about">Work</Nav.Link>
+              <NavDropdown className="nav-item" title="Services" id="basic-nav-dropdown ">
+                <Container style={{width:"30vw",height:"30vh",padding:"10px"}}>
                   <Row>
                     <Col md={6}>
                       <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -37,8 +37,9 @@ function NavBar() {
                   </Row>
                 </Container>
               </NavDropdown>
-              <Nav.Link className="nav-item" href="#projects">Projects</Nav.Link>
-              <Nav.Link className="nav-item" href="#contact">Contact</Nav.Link>
+              <Nav.Link className="nav-item" href="#projects">About</Nav.Link>
+              <Nav.Link className="nav-item" href="#contact">StartUp</Nav.Link>
+              <Nav.Link className="nav-item" href="#contact">Let's Talk</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </div>

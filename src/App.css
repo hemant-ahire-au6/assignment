@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
 .custom-img {
   height: 100vh;
   object-fit: cover;
 }
 
-.nav-theme{
-  /* background-color: #FFFFFF; */
-}
 
 .text{
   /* font: normal normal medium 24px/35px Poppins; */
@@ -41,7 +41,7 @@
 }
 
 .footer{
-  background: #000000 0% 0% no-repeat padding-box;
+  background: #000000 ;
  
 }
 
@@ -54,6 +54,7 @@
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
+  margin-left: 20px;
 }
 /* carousel design */
 .carousel {
@@ -102,6 +103,14 @@
   margin-bottom: 150px;
 }
 
+.contact-btn{
+  top: 4325px;
+left: 597px;
+width: 295px;
+height: 79px;
+opacity: 1;
+}
+
 .contact{
   text-align: center;
   justify-content: center;
@@ -119,4 +128,63 @@
 
 .contact-data{
   margin-bottom: 50px;
+}
+
+.footer{
+  text-align: center;
+}
+.footer1{
+  padding: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer3{
+ 
+  margin-top: 10px;
+  text-align: center;
+}
+.contact2{
+  justify-content: space-between;
+  padding: 20px;
+}
+.contact-btn:hover{
+  background-color: blue;
+}
+.contact-btn{
+  width: 150px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.footer1 h1{
+  font-family: "poppins";
+  font-size: 33px;
+  color: #FFFFFF;
+}
+
+.footer1 h2{
+  font-family: "poppins";
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.footer1 span{
+  font-family: "poppins";
+  font-size: 22px;
+  font-weight: 400;
+  color: #F84525;
+}
+
+.footer2 h1{
+  font-family: "poppins";
+  font-size: 26px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+hr{
+  background-color: #FFFFFF;
+  height: 2px;
 }

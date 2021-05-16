@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col,Button } from 'react-bootstrap'
 import Img from '../asset/Group 69.svg'
 
 
@@ -19,9 +19,9 @@ function Contact() {
                         </Row>
                         <Row>
                             <Col>
-                                <div>
+                                <div className="contact2">
                                     <input placeholder="email or phone" />
-                                    <button>Contact Me</button>
+                                    <Button variant="light" className="contact-btn">Contact Me</Button>
                                 </div>
                             </Col>
                         </Row>
