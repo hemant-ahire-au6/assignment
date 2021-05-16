@@ -4,7 +4,7 @@ import Img from '../asset/Group 1020.png'
 function Carousel() {
     return (
         <div className="carousel">
-            <img style={{height: "100vh",width:"100%"}} src={Img} />
+            <img style={{height: "100vh",width:"100%"}} src={Img}  alt="Welcome here"/>
             <div className="centered">
                 <h1> We are a Modern IT Company</h1>
                 <p>

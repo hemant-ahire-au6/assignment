@@ -7,7 +7,7 @@ import People2 from "../asset/Rectangle 54.png"
 
 function People() {
     return (
-        <div>
+        <div className="people">
             <Container>
               <div>
                   <h1>Our People</h1>

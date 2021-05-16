@@ -49,6 +49,7 @@
 .nav-item{
   text-align: left;
   font-family: 'Poppins';
+  font-weight: 500;
   font-size: 20px;
   letter-spacing: 0px;
   color: #000000;
@@ -73,4 +74,49 @@
 .work{
   margin-top: 100px;
   margin-bottom: 30px;
+}
+
+.team{
+  margin-bottom: 100px;
+}
+.details h3{
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.details p{
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 40px;
+}
+.details span{
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 21px;
+}
+
+/* People component design */
+
+.people{
+  margin-bottom: 150px;
+}
+
+.contact{
+  text-align: center;
+  justify-content: center;
+}
+.contact-data h1{
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.contact-data p{
+  font-size: 25px;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.contact-data{
+  margin-bottom: 50px;
 }
